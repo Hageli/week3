@@ -35,9 +35,9 @@ async function getData() {
     const percentCell = document.createElement("td");
     percentCell.innerText = calculation;
     if (calculation < 25) {
-      percentCell.classList.add("under25");
+      tableRow.style.backgroundColor = "#ff9e9e";
     } else if (calculation > 45) {
-      percentCell.classList.add("over45");
+      tableRow.style.backgroundColor = "#abffbd";
     }
 
     tableRow.appendChild(labelCell);
