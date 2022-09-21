@@ -35,3 +35,11 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background-color: #ffffff;
 }
+
+.over45 {
+  background-color: #abffbd;
+}
+
+.under25 {
+  background-color: #ff9e9e;
+}
